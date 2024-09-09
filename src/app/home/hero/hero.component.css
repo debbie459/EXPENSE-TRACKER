@@ -3,7 +3,7 @@ main{
     margin-top: 20px;
     border-radius: 15px;
     padding: 10px;
-    height: 70vh;
+    height: fit-content;
 }
 
 h3{
