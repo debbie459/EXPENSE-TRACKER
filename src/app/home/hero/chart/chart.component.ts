@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-import {Chart, registerables} from 'chart.js'
+import {registerables} from 'chart.js'
+import Chart from 'chart.js/auto'
 import { ExpensesServiceService } from '../../../expenses-service.service';
 import { ExpensesModel } from '../../../model/expenses-model';
 Chart.register(...registerables)
